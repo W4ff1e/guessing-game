@@ -11,7 +11,7 @@ fn main() {
     //// println!("The secret number is: {secret_number}");
 
     loop {
-        println!("Please enter your number: ");
+        println!("Please enter your number:");
 
         let mut guess = String::new();
 
