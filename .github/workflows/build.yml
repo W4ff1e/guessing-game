@@ -1,5 +1,4 @@
-# .github/workflows/release.yml
-name: Build & add  to release.
+name: Build & add to release.
 
 on:
   release:
@@ -21,4 +20,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           RUSTTARGET: ${{ matrix.target }}
-          EXTRA_FILES: "README.md"
