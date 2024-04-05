@@ -2,6 +2,8 @@
 
 Simple guessing game built on the Rust Book guide.
 
+[![Build & add to release.](https://github.com/W4ff1e/guessing-game/actions/workflows/build.yml/badge.svg?event=release)](https://github.com/W4ff1e/guessing-game/actions/workflows/build.yml)
+
 ## Dependencies
 
 None
