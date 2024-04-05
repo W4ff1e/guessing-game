@@ -18,7 +18,7 @@ jobs:
           # (optional) Path to changelog.
           changelog: CHANGELOG.md
           # (required) GitHub token for creating GitHub Releases.
-          token: ${{ secrets.REPO_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   upload-assets:
     needs: create-release
@@ -55,4 +55,4 @@ jobs:
           zip: windows
 
           # (required) GitHub token for uploading assets to GitHub Releases.
-          token: ${{ secrets.REPO_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
